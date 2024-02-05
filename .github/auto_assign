@@ -1,0 +1,19 @@
+# Set to true to add reviewers to pull requests
+addReviewers: true
+
+# Set to true to add assignees to pull requests
+addAssignees: author
+
+# A list of assignees, overrides reviewers if set
+# A list of reviewers to be added to pull requests (GitHub user name)
+reviewers:
+  - Swit-Albus
+  - Swit-Leo
+  - Swit-Teddy
+  
+# A number of assignees to add to the pull request
+# Set to 0 to add all of the assignees.
+# Uses numberOfReviewers if unset.
+numberOfReviewers: 0
+
+runOnDraft: true
